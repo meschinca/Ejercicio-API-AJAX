@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API de búsqueda</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- Campo de consulta a la API del servidor -->
+    <label for="name-query">Buscar persona:</label>
+    <input type="text" name="name" id="name-query">
+    <label for="case-sens">Considerar mayúsculas</label>
+    <input type="checkbox" name="case-sens" id="case-sens">
+    <label for="partial">Por nombre exacto</label>
+    <input type="checkbox" name="no-partial" id="no-partial">
+    <label for="min-age">Edad mínima:</label>
+    <input type="number" name="min-age" id="min-age">
+    <input type="submit" value="Buscar" id="submit">
+    
+  <!-- Muestra el estado de la consulta -->
+  <p id="query-status"></p>
+  
+  <!-- Lista donde mostrar las coincidencias de la búsqueda -->
+  <ul id="list"></ul>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
