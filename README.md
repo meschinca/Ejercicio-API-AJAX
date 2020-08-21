@@ -1,6 +1,10 @@
 # Ejercicio-API-AJAX
 Consigna para practicar la implementación de API con AJAX
 
+## Vista previa
+
+https://jc87g.sse.codesandbox.io/
+
 ## CONSIGNAS:
 
 1- Rehacer la página cliente para que sea un input text con un botón, y que al clickear el botón haga la consulta a la api `/person` pasando por query parameter el texto ingresado con la key `name` (que así como está retornará un array con las personas que contengan ese dato como nombre) y mostrar en una `<ul>` los resultados obtenidos, cada item con nombre y edad, x ej "Fernando, 24 años". De ser posible, chequear si la edad es > 1 para que diga "años", y si es 1 que diga "año".
